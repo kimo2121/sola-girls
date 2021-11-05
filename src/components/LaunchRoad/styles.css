@@ -22,7 +22,7 @@
   text-align: left;
   height: fit-content;
   width: 1040px;
-  margin-bottom: -1.2vh;
+  margin-bottom: -12px;
 }
 .each-road div,
 .each-road2 div,
@@ -132,6 +132,15 @@
     margin: 20px 0;
   }
 }
+@media screen and (max-width: 700px) {
+  .each-road,
+  .each-road2,
+  .each-road3,
+  .each-road4 {
+    margin-top: -1.2vh;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .each-road,
   .each-road2,
@@ -140,7 +149,6 @@
     background-image: none;
     width: 100%;
     padding: 10px;
-
     text-align: left;
     margin: 0;
     border-bottom: 1px solid #ff7bcc;

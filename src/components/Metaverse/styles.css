@@ -23,7 +23,7 @@
   color: #ff7bcc;
 }
 .meta-left {
-  height: 505px;
+  height: 491px;
   margin-right: 80px;
   width: 500px;
   box-sizing: border-box;
@@ -120,6 +120,7 @@
   }
   .meta-left img {
     width: 90vw;
+    top: 4px;
     left: 0;
   }
   .meta-right {
