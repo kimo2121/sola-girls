@@ -1,7 +1,10 @@
 .App {
   text-align: center;
 }
-.App p {
+.App p,
+.App small,
+.App a,
+.App span {
   font-family: "Roboto Slab", serif;
   font-weight: 300;
 }
