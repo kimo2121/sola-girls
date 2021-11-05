@@ -1,0 +1,43 @@
+.community {
+  background-color: #56b3e0;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.community h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.community small {
+  font-size: 18px;
+  width: 95%;
+  font-style: italic;
+  margin: 0 auto;
+  font-weight: 300;
+  color: white;
+}
+.join-discord {
+  color: white;
+  margin-top: 2vh;
+  border-radius: 10px;
+  font-size: 24px;
+  border: none;
+  width: 400px;
+  box-sizing: border-box;
+  height: 60px;
+  padding: 0 30px;
+  font-weight: 400;
+  background-color: #ff7bcc;
+}
+@media screen and (max-width: 500px) {
+  .join-discord {
+    padding: 0 10px;
+    width: 330px;
+    font-size: 20px;
+  }
+  .community h1 {
+    font-size: 32px;
+  }
+}

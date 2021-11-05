@@ -1,24 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Anime from "./components/Anime/Anime";
+import Community from "./components/Community/Community";
+import DevelopmentRoadmap from "./components/DevelopmentRoadmap/DevelopmentRoadmap";
+import FAQ from "./components/FAQ/FAQ";
+import Footer from "./components/Footer/Footer";
+import LaunchRoad from "./components/LaunchRoad/LaunchRoad";
+import Metaverse from "./components/Metaverse/Metaverse";
+import MintComponent from "./components/MintComponent/MintComponent";
+import Navbar from "./components/Navbar/Navbar";
+import Story from "./components/Story/Story";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <MintComponent />
+      <Metaverse />
+      <Story />
+      <FAQ />
+      <LaunchRoad />
+      <DevelopmentRoadmap />
+      <Anime />
+      <Community />
+      <Footer />
     </div>
   );
 }

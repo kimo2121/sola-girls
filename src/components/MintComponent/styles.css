@@ -1,0 +1,80 @@
+.left-part h1 {
+  margin-top: 0;
+  font-size: 60px;
+}
+.left-part h1 span {
+  color: #ff7bcc;
+}
+.left-part {
+  width: 550px;
+  margin-right: 50px;
+  text-align: left;
+}
+.left-part p {
+  color: #0c0c0c;
+  font-size: 18px;
+}
+.mint-btn {
+  background-color: #ff7bcc;
+  color: white;
+  width: 300px;
+  height: 60px;
+  border: none;
+  font-size: 24px;
+  border-radius: 10px;
+}
+.mint-component {
+  display: flex;
+  width: 1170px;
+  justify-content: center;
+  margin: 0 auto;
+}
+.right-part {
+  width: 500px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 5px 0px #ffb2ee;
+  background: linear-gradient(#4db8cc, #fea3e2, #249ac8);
+}
+@media screen and (max-width: 1200px) {
+  .mint-component {
+    width: 950px;
+  }
+  .left-part {
+    width: 450px;
+  }
+  .right-part {
+    width: 450px;
+    height: 450px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .mint-component {
+    width: 750px;
+  }
+  .left-part {
+    width: 350px;
+  }
+  .right-part {
+    width: 370px;
+    height: 370px;
+  }
+  .left-part h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mint-component {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .left-part {
+    margin-right: 0;
+    width: 90%;
+    margin-bottom: 50px;
+  }
+  .right-part {
+    width: 90%;
+    height: 90%;
+  }
+}

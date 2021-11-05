@@ -1,0 +1,99 @@
+.anime {
+  display: flex;
+  width: 1140px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  padding-top: 50px;
+  justify-content: center;
+}
+.anime-left {
+  width: 440px;
+  margin-right: 150px;
+  text-align: left;
+}
+.anime-left h1 {
+  font-size: 75px;
+  font-weight: 500;
+}
+.anime-left h2 {
+  font-weight: 500;
+  font-size: 60px;
+  margin: 0;
+}
+.anime-left h1 span {
+  color: #ff7bcc;
+}
+.available,
+.price-ann {
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+}
+
+.price-ann {
+  color: black;
+  display: block;
+  margin-bottom: 2vh;
+}
+.anime-right {
+  width: 500px;
+  height: 500px;
+}
+.public-sale {
+  width: 250px;
+  color: #ff7bcc;
+  border: 0;
+  border-radius: 10px;
+  height: 60px;
+  background-color: white;
+  font-size: 24px;
+  font-weight: 400;
+}
+@media screen and (max-width: 1200px) {
+  .anime {
+    width: 950px;
+  }
+  .anime-left {
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .anime {
+    width: 750px;
+  }
+  .anime-left h1 {
+    font-size: 60px;
+  }
+  .anime-left h2 {
+    font-size: 50px;
+  }
+  .anime-left {
+    width: 360px;
+    margin-right: 0;
+  }
+  .anime-right,
+  .anime-right img {
+    width: 350px;
+    height: 350px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .anime {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .anime-left {
+    width: 90%;
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+  .anime-right {
+    width: 100%;
+    height: 100%;
+  }
+  .anime-right img {
+    width: 90%;
+    height: 90%;
+  }
+}

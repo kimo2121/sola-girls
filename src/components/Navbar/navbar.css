@@ -1,0 +1,63 @@
+.navbar {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.connect-btn {
+  font-size: 18px;
+  color: #ff7bcc;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.slider-menu {
+  width: 320px;
+  position: fixed;
+  right: -340px;
+  top: 0;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  z-index: 1000;
+  transition: all 0.3s;
+}
+.icon-close {
+  position: absolute;
+  top: 10px;
+  cursor: pointer;
+  right: 20px;
+  fill: white;
+  width: 20px;
+  height: 20px;
+}
+.icon-menu {
+  fill: gray;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.slider-menu a {
+  text-decoration: none;
+  color: white;
+  margin: 10px 0;
+}
+.slider-menu.active {
+  right: 0;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 1200px) {
+  .navbar {
+    width: 95%;
+  }
+}
